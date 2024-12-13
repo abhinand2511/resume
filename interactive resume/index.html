@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home" class="section">
+            <h1 class="animate-on-scroll">Abhinand B</h1>
+            <p class="animate-on-scroll">FULL STACK DEVELOPER</p>
+        </section>
+
+        <section id="about" class="section">
+            <h2 class="animate-on-scroll">About Me</h2>
+            <p class="animate-on-scroll">Hi, I’m ABHINAND B, a Passionate Full Stack Developer
+                As a recent MCA graduate with a keen interest in web technologies, I specialize in creating dynamic, user-friendly web applications using modern tools and frameworks. Whether it's crafting intuitive front-end experiences or building robust back-end systems, I enjoy turning ideas into functional and visually appealing solutions. With a strong foundation in the MERN stack, HTML, CSS, JavaScript, and more, I’m always excited to learn and contribute to innovative projects that make a real-world impact.</p>
+        </section>
+
+        <section id="experience" class="section">
+            <h2 class="animate-on-scroll">Experience</h2>
+            <div class="experience-item animate-on-scroll" data-info="Worked on EPLQ and Cruise ship management projects as an intern">
+                <h3>Web Developer intern at Unified Mentor</h3>
+                <p>June 2024 - Present</p>
+            </div>
+            <div class="experience-item animate-on-scroll" data-info="Completed Web developer Bootcamp on udemy by COLT STEELE ">
+                <h3>Webdev Bootcamp</h3>
+                <p>August 2024-December 2024</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2 class="animate-on-scroll">Skills</h2>
+            <ul class="skills-list">
+                <li class="animate-on-scroll" data-info="Expert in HTML5, CSS3, and responsive design">HTML/CSS</li>
+                <li class="animate-on-scroll" data-info="Proficient in JavaScript, including modern ES6+ features">JavaScript</li>
+                <li class="animate-on-scroll" data-info="Experience with React.js for building user interfaces">React.js</li>
+                <li class="animate-on-scroll" data-info="Familiar with Node.js and Express for backend development">Node.js</li>
+            </ul>
+        </section>
+
+        <section id="contact" class="section">
+            <h2 class="animate-on-scroll">Contact Me</h2>
+            <p class="animate-on-scroll">Email: abhikutti25@gmail.com</p>
+            <p class="animate-on-scroll">Phone: 867844875</p>
+        </section>
+    </main>
+
+    <div id="popup" class="popup">
+        <div class="popup-content">
+            <span class="close-popup">&times;</span>
+            <p id="popup-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
